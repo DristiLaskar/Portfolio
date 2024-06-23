@@ -387,14 +387,14 @@ footer p{
         max-width: 240px;
     }
     .container li{
-        font-size: 0.6rem;
+        font-size: 0.9rem;
         gap: 0.4rem;
     }
 }
 @media(max-width:400px){
     .container li{
-        font-size: 0.6rem;
-        gap: 0.4rem;
+        font-size: 0.9rem;
+        gap: 0.7rem;
     }
     .card_content{
         padding: 0;
@@ -404,7 +404,7 @@ footer p{
         font-size: 1rem;
     }
     .container ul{
-        gap: 0.4rem;
+        gap: 1em;
     }
     .image_container{
         max-width: 340px;
@@ -456,5 +456,6 @@ footer p{
     .container .logo{
         font-size: 1rem;
     }
+    
 }
  
