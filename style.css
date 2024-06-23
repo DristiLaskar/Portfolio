@@ -391,7 +391,7 @@ footer p{
         gap: 0.4rem;
     }
 }
-@media(max-width:393px){
+@media(max-width:386px){
     .container li{
         font-size: 0.6rem;
         gap: 0.4rem;
@@ -446,6 +446,15 @@ footer p{
     }
     #hero .image_content h1 , .hi_text,.name{
         font-size: 1.6rem;
+    }
+    .contact_way h3{
+        font-size: 14px;
+    }
+    .l{
+        font-size: 14px;
+    }
+    .container .logo{
+        font-size: 1rem;
     }
 }
  
