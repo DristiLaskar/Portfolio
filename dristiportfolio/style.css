@@ -1,0 +1,445 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body,html{
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem 2rem;
+    margin: 0 auto;
+    background-color: black;
+    color: rgb(77, 254, 12);
+    max-width:1300px ;
+    
+}
+.logo{
+    box-shadow: 2px 2px 15px aqua;
+    border-radius: 1.2rem;
+}
+ul{
+    display: flex;
+    gap: 1.1rem;
+    list-style: none;
+    
+}
+li{
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 249, 195);
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+nav li:hover{
+    
+    transition: 0.3s ease-in-out;
+}
+#hero{
+    padding: 4rem 0;
+    background-color: rgb(3, 2, 32);
+    max-height: 100vh;
+    max-width: 1300px;
+    border-bottom: 2px solid aqua;
+}
+#hero .container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 2, 32) ;
+}
+.image_container img{
+    width: auto-fit;
+    height: auto-fit;
+    border-radius: 50%;
+    border-color: white;
+    box-shadow: -5px 5px 40px rgb(94, 228, 235);
+}
+.image_container img:hover{
+    transform: scale(1.06);
+    transition: 0.7s ease-in-out;
+}
+.image_content h1{
+    font-size: 2.5rem;
+    color:  rgb(34, 249, 195);
+    
+}
+.hi_text{
+    font-size: 4.2rem;
+    color: rgb(77, 254, 12);
+}
+.image_content h2{
+    font-size: 2rem;
+    color:  rgb(10, 243, 208);
+    
+}
+.name{
+    font-weight: bolder;
+    color:rgb(77, 254, 12);
+    font-size: 3rem;
+}
+.image_content p{
+    font-size: 74%;
+    font-weight:lighter ;
+    text-align: left;
+    padding-top: 2rem;
+    color: rgb(77, 254, 12);
+    line-height: 1.2rem;
+}
+.image_content{
+    padding:5rem;
+}
+.auto-type{
+    color: rgb(77, 254, 12);
+}
+
+
+#projects{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    max-width: 1300px;
+    max-height: 160vh;
+    margin: 0 auto;
+    background: rgb(3, 2, 32);
+    border-bottom: 2px solid aqua;
+        
+}
+#projects .pp{
+    align-items: center;
+    font-size: 2rem;
+    align-content: center;
+    max-width: 20.65rem;
+    color:rgb(77, 254, 12);
+    padding: 0.7rem 31.5rem;
+    margin-bottom: 1rem;
+}
+.card{
+    max-width: 300px;
+    height: 365px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px rgb(2, 239, 251);
+    background: black;
+}
+img{
+    max-width: 300px;
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.card_content{
+    padding: 20px;
+    color: rgb(77, 254, 12);
+    text-align: center ;
+    font-size: 1.1rem;
+}
+.card_content p{
+    margin-top: 10px;
+    color: rgb(34, 249, 195);
+    font-size: 0.9rem;
+}
+.card_content a{
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgb(34, 249, 195);
+    padding-top: 2rem;
+}
+.card:hover{
+    transform: scale(1.04);
+    transition: 0.5s ease-in-out;
+    
+}
+#projects h2{
+    text-align: center;
+    color: aqua;
+}
+#skills{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    max-width: 1300px;
+    max-height: 200vh;
+    margin: 0 auto;
+    background: rgb(3, 2, 32);
+    border-bottom: 2px solid aqua;
+        
+}
+#skills h2{
+    align-items: center;
+    font-size: 2rem;
+    align-content: center;
+    max-width: 20.65rem;
+    color:rgb(77, 254, 12);
+    padding: 0.7rem 33rem;
+    
+}
+  .grid_item {
+    display: grid;
+    place-items: center;
+  }
+  
+  .card {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+  }
+  
+  
+  .card_content {
+    padding: 2rem;
+    position: relative;
+    top: -6.5rem;
+    margin-bottom: -6.5rem;
+    transition: 0.5s ease-in-out;
+    transform: translateY(100px);
+  }
+  .card_content h3 {
+    text-align: center;
+  }
+.i_container{
+    max-width: 320px;
+    max-height: 192px;
+    background-size: contain;
+} 
+#contact{
+    background:rgb(3, 2, 32) ;
+    border-bottom: 2px solid aqua;
+}
+  
+#contact h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top:0.5rem;
+    
+}
+  
+#contact .container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    background:rgb(3, 2, 32) ;
+}
+  
+.top_contact{
+    max-width: 60rem;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+.contact_way{
+    display: flex;
+    padding-left: 2rem;
+    align-items: center;
+    color:rgb(34, 249, 195) ;
+}
+.contact_way .fb{
+    padding-left: 3rem;
+}
+  
+.contact_way i{
+    font-size: 1.5rem;
+}
+.contact_way h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+  
+.bottom_contact{
+    max-width: 20rem;
+    font-size: 1.5rem;
+    gap: 0.8rem;
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+.bottom_contact .contact_way a{
+    font-size: 1.5rem;
+}
+.bottom_contact h3{
+    font-size: 2rem;
+}
+.resume{
+    max-width: 80rem;
+    font-size: 2rem;
+    gap: 0.8rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 2rem;
+    box-shadow: 3px 3px 30px aqua;
+    padding-right: 1.8rem;
+    padding-bottom: 0.4rem;
+}
+.resume:hover{
+    transform: scale(1.04);
+    transition: 0.4s ease-in-out;
+    background: white;
+    
+}
+.resume a:hover{
+    color: black;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 2, 32);
+    padding: 1rem;
+    border-bottom: 2px solid aqua;
+}
+footer p{
+    text-align: center;
+    background-color: black;
+    color: rgb(77, 254, 12);
+    font-size: 1rem;
+    font-weight: lighter;
+    padding: 1rem;
+    
+}
+@media(max-width:1163px){
+    html{
+        font-size:80%;
+    }
+    .image_container{
+        max-width: 400px;
+        padding-left: 1rem;
+        max-height: 300px;
+    }
+    img{
+        max-width: 250px;
+    }
+   
+    #contact{
+        max-height: 90vh;
+        
+    }
+    #contact .container{
+        max-height: 500px;
+    }
+    .card{
+        max-width: 250px;
+        max-height: 310px;
+        border-radius: 20px;
+    }
+    .i_container{
+        max-width: 25rem;
+    }
+    .grid_item {
+       column-gap: 0.6rem;
+    }
+    #skills{
+        max-height: 300vh;
+    }
+    #hero .container{
+        flex-direction: column;
+    }
+}
+@media(max-width:533px){
+    #hero .image_content h1 , .hi_text,.name{
+        font-size: 2rem;
+    }
+    .card{
+        max-width: 220px;
+        max-height: 290px;
+        border-radius: 20px;
+    }
+    .i_container{
+        max-width: 20rem;
+    }
+    img{
+        max-width: 220px;
+    }
+    .image_content{
+        padding: 2rem;
+    }
+    #contact .container{
+        padding: 0rem;
+        max-height: 450px;
+    }
+}
+@media(max-width:386px){
+    .container li{
+        font-size: 0.7rem;
+        gap: 0.5rem;
+    }
+    .container .logo{
+        font-size: 1rem;
+    }
+    .container ul{
+        gap: 0.4rem;
+    }
+    .image_container{
+        max-width: 340px;
+        padding-left: 2rem;
+        max-height: 280px;
+    }
+    img{
+        max-width: 210px;
+    }
+    #hero .image_content h1 , .hi_text,.name{
+        font-size: 1.4rem;
+    }
+    #hero .image_content h2{
+        font-size: 1.3rem;
+    }
+    .image_content{
+        padding: 2rem;
+    }
+    .card{
+        max-width: 200px;
+        max-height: 280px;
+        border-radius: 20px;
+    }
+    .i_container{
+        max-width: 20rem;
+    }
+    img{
+        max-width: 200px;
+    }
+    #skills{
+        max-height: 500vh;
+    }
+    footer p{
+        font-size:0.7rem ;
+        font-weight: lighter;
+    }
+    #contact .container h2{
+        font-size: 1.8rem;
+    }
+}
+@media(max-width:440px){
+    .contact_way h3{
+        font-size: 1.1rem;
+        font-weight:lighter;
+    }
+    .bottom_contact .contact_way h3{
+        font-size: 0.8rem;
+        font-weight: lighter;
+    }
+}   
