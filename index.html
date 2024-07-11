@@ -10,7 +10,7 @@
   />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <header>
@@ -53,6 +53,9 @@
                 </div>    
             </div>
         </section>
+        <section class="eheading">
+            <h2>EDUCATION</h2>
+        </section>
         <section id="education">
             <div class="econtainer">
                 
@@ -77,6 +80,9 @@
                 </div>
             </div>
             
+        </section>
+        <section class="pheading">
+            <h2>PROJECTS</h2>
         </section>
         <section id="projects">
             
@@ -126,6 +132,9 @@
             </div>
            
       </section>
+      <section class="sheading">
+        <h2>SKILLS</h2>
+    </section>
       <section id="skills">
             
         <div class="grid_item">
@@ -202,7 +211,7 @@
   
       <section id="contact">
             <div class="container">
-                <h2>Contact Me</h2>
+                <h2 class="cm">Contact Me</h2>
                 <div class="top_contact">
                     <div class="contact_way">
                         <i class="fab fa-linkedin"></i>
@@ -256,5 +265,17 @@
         </div>
         <P><i class="fa-regular fa-copyright">2024</i> - All rights reserved to Dristi Laskar</P>
     </footer>
+    <script >
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+        ScrollReveal().reveal('.eheading h2, .sheading h2',{delay: 300});
+        ScrollReveal().reveal('.econtainer, .pheading h2',{delay: 300});
+        ScrollReveal().reveal('.grid_item',{delay: 300});
+        ScrollReveal().reveal('.top_contact, .bottom_contact, .cm, .resume',{delay: 300});
+    </script>
 </body>
 </html>
