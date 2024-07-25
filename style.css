@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 html{
     font-size: 62.5%;
@@ -27,6 +28,8 @@ body,html{
 .logo{
     box-shadow: 2px 2px 15px aqua;
     border-radius: 1.2rem;
+    color: rgb(184, 239, 239);
+    padding: 0 1rem;
 }
 ul{
     display: flex;
@@ -36,6 +39,7 @@ ul{
 }
 li{
     font-size: 1.2rem;
+    color: rgb(184, 239, 239);
 }
 a{
     text-decoration: none;
@@ -83,16 +87,16 @@ nav li:hover{
 }
 .hi_text{
     font-size: 4.2rem;
-    color: rgb(77, 254, 12);
+    color: rgb(227, 231, 232);
 }
 .image_content h2{
     font-size: 2rem;
-    color:  rgb(10, 243, 208);
+    color: rgb(184, 239, 239);
     
 }
 .name{
     font-weight: bolder;
-    color:rgb(77, 254, 12);
+    color:rgb(184, 239, 239);
     font-size: 3rem;
 }
 .image_content p{
@@ -100,14 +104,14 @@ nav li:hover{
     font-weight:lighter ;
     text-align: left;
     padding-top: 2rem;
-    color: rgb(77, 254, 12);
+    color: rgb(227, 231, 232);
     line-height: 1.2rem;
 }
 .image_content{
     padding:5rem;
 }
 .auto-type{
-    color: rgb(77, 254, 12);
+    color: rgb(184, 239, 239);
 }
 .eheading , .pheading , .sheading{
     width: 100%;
@@ -115,7 +119,7 @@ nav li:hover{
 }
 .eheading h2 , .pheading h2, .sheading h2{
     background-color: rgb(3, 2, 32);
-    color: rgb(77, 254, 12);
+    color: rgb(184, 239, 239);
     padding-top: 1rem;
     text-align: center;
 }
@@ -291,7 +295,9 @@ img{
     margin-top:0.5rem;
     
 }
-  
+ .cm{
+    color: rgb(184, 239, 239);
+ } 
 #contact .container{
     height: 90vh;
     display: flex;
@@ -369,11 +375,15 @@ img{
     background-color: rgb(3, 2, 32);
     padding: 1rem;
     border-bottom: 2px solid aqua;
+    
+}
+.foot a{
+    color: rgb(184, 239, 239);
 }
 footer p{
     text-align: center;
     background-color: black;
-    color: rgb(77, 254, 12);
+    color: rgb(152, 155, 155);
     font-size: 1rem;
     font-weight: lighter;
     padding: 1rem;
