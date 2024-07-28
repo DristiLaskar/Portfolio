@@ -15,27 +15,18 @@
 <body>
     <header>
         <nav class="container">
-            <div class="logo animate__animated animate__zoomIn animate__delay-1s	1s ">PORTFOLIO</div>
-            <ul class="animate__animated animate__fadeInLeft animate__delay-1s	1s ">
-                <a href="#hero">
-                    <li>Home</li>
-                </a>
-                <a href="#education">
-                    <li>Education</li>
-                </a>
-                <a href="#projects">
-                    <li>Projects</li>
-                </a>
-                <a href="#skills">
-                    <li>Skills</li>
-                </a>
-                
-                </a>
-                <a href="#contact">
-                    <li>Contact</li>
-                </a>
+            <div class="logo">PORTFOLIO</div>
+            <button class="hamburger" id="hamburger">&#9776;</button>
+            <ul class="nav-links" id="nav-links">
+                <li class="close-btn" id="close-btn">&times;</li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+    
     </header>
     <main>
         <section id="hero">
@@ -277,5 +268,6 @@
         ScrollReveal().reveal('.grid_item',{delay: 300});
         ScrollReveal().reveal('.top_contact, .bottom_contact, .cm, .resume',{delay: 300});
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
